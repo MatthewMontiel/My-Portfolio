@@ -1,12 +1,15 @@
-
-header {
+/* Container for all flexboxes */
+.container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background: rgb(60, 60, 76);
 }
 
-h1{
+ 
+/* Header name with background */
+h1 {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     display: inline;
@@ -16,7 +19,11 @@ h1{
     font-size: 40px;
 }
 
+h2 { 
+    color: aqua;
+}
 
+/* Flex setup for header links*/
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -26,7 +33,7 @@ nav ul {
   }
 
 
-  
+/* Header links */  
 nav a {
     font-size: 125%;
     font-weight: regular;
@@ -35,95 +42,82 @@ nav a {
     padding-left: 20px;
 }
 
-
+/* Affects Hover on header links */
 nav a:hover {
-    background-color: white;
+    background-color: rgb(48, 27, 101);
   }
 
 
 .header-image{
     background-image: url(./images/electricity-technology-colorful-background-header.jpg);
-    display: flex;
+    flex-flow: wrap;
+    align-items: flex-end;
+    padding-right: 20px;
+    border: 5px solid rgb(75, 138, 156); 
 }
 
-/*Can't get header text to align to the right side of page*/
 .header-tag{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: aliceblue;
     display: flex;
-    justify-content: right;
-}
-
-
-.row-1 {
-    display: flex;
-    gap: 1.7rem;    
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.card-1{
-    padding: 1rem;
-}
-
-
-.row-2{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;    
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.row-2 p {
-    padding-top: 16rem;
-    padding-left: 1rem;
-
+    justify-content: flex-end;
 }
 
 .app-1 {
     padding: 1rem;
 }
 
-.app-2 {
-    background-image: url(./images/pexels-emiliano-arano-1366567.jpg);
+.app-2, .app-3, .app-4, .app-5, .app-6 {
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-end;
     width: 300px;
     height: 320px;
     border: 5px solid rgb(75, 138, 156);
     flex: 0 1 auto;
 }
 
-.target {
-    width: 80%;
-    height: 80%;
+.app-2 {
+    background-image: url(./images/pexels-emiliano-arano-1366567.jpg);
+    height: 360px;
+    width: 640px;
+}
+
+.app-3 {
+    background-image: url(./images/pexels-dzenina-lukac-754262\ \(1\).jpg);
+    height: 360px;
+    width: 640px;
+}
+
+.app-4{
+    background-image: url(./images/pexels-polina-tankilevitch-6927334\ \(1\).jpg);
+    height: 360px;
+    width: 640px;
+}
+
+.app-5{
+    background-image: url(./images/pexels-magda-ehlers-1586950.jpg);
+    height: 360px;
+    width: 640px;
+}
+
+.app-6{
+    background-image: url(./images/pexels-andrea-piacquadio-3756042.jpg);
+    height: 360px;
+    width: 640px;
 }
 
 .target {
     background-color: aquamarine;
-}
-
-.app-3,.app-4,.app-5,.app-6 {
-    display: flex;
-    flex-wrap: nowrap;
-    border: 5px solid rgb(75, 138, 156);
-    flex-grow: 0;
-}
-
-.row-3 {
-    display: flex;
-    flex-wrap:;
-    gap: 2rem;    
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    width: 60%;
+    height: 20%;
 }
 
 .card-3 {
     padding: 1rem;
     text-decoration: underline;
+    color: aquamarine;
 }
 
   
