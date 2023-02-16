@@ -1,0 +1,131 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(60, 60, 76);
+}
+
+h1{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    color: rgb(35, 40, 38);
+    background-color: aquamarine;
+    padding: 3px 0px 0px 30px;
+    font-size: 40px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+    padding-right: 20px;
+  }
+
+
+  
+nav a {
+    font-size: 125%;
+    font-weight: regular;
+    text-decoration: underline;
+    color: aquamarine;
+    padding-left: 20px;
+}
+
+
+nav a:hover {
+    background-color: white;
+  }
+
+
+.header-image{
+    background-image: url(./images/electricity-technology-colorful-background-header.jpg);
+    display: flex;
+}
+
+/*Can't get header text to align to the right side of page*/
+.header-tag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: right;
+}
+
+
+.row-1 {
+    display: flex;
+    gap: 1.7rem;    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card-1{
+    padding: 1rem;
+}
+
+
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row-2 p {
+    padding-top: 16rem;
+    padding-left: 1rem;
+
+}
+
+.app-1 {
+    padding: 1rem;
+}
+
+.app-2 {
+    background-image: url(./images/pexels-emiliano-arano-1366567.jpg);
+    width: 300px;
+    height: 320px;
+    border: 5px solid rgb(75, 138, 156);
+    flex: 0 1 auto;
+}
+
+.target {
+    width: 80%;
+    height: 80%;
+}
+
+.target {
+    background-color: aquamarine;
+}
+
+.app-3,.app-4,.app-5,.app-6 {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 5px solid rgb(75, 138, 156);
+    flex-grow: 0;
+}
+
+.row-3 {
+    display: flex;
+    flex-wrap:;
+    gap: 2rem;    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card-3 {
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+  
+
+  
